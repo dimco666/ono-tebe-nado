@@ -18,9 +18,26 @@
     margin: 0;
     padding: 0;
     font-style: normal;
+}
+
+.header__address {
     justify-self: end;
+}
+
+.header__links-list {
+    display: flex;
+    gap: 32px;
 }
 
 .header__links-list-item {
     list-style: circle;
+    display: list-item;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__link_active {
+    text-decoration: none;
 }
