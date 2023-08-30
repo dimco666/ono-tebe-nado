@@ -137,12 +137,16 @@ letter-spacing: 60px;
 .lots {
     padding: 180px 50px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .lots__card-list {
     list-style: none;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .card-link {
@@ -203,4 +207,13 @@ z-index: 1;
     width: 430px;
     min-height: 450px;
     flex-grow: 1;
+}
+
+.lots__heading {
+    color: #000;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
 }
