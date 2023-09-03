@@ -144,10 +144,8 @@ letter-spacing: 60px;
 .lots__card-list {
     list-style: none;
     width: 100%;
-    min-height: 450px;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
 }
 
 .card-link {
@@ -229,4 +227,52 @@ font-weight: 400;
 line-height: normal;
 margin-left: 40px;
 margin-top: 30px;
+}
+
+.about {
+    padding: 0 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 430px 1fr;
+    min-height: 487px;
+    column-gap: 25px;
+}
+
+.about__logo {
+    background-color: black;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 95px;
+}
+
+.about__logo-image {
+    height: 114px;
+    width: 148px;
+}
+
+.about__title {
+    color: #000;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin: 100px 0;
+}
+
+.about__text {
+    color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 25px;
+}
+
+.about__text:last-of-type {
+    margin-bottom: 0;
 }
