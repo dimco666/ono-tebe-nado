@@ -1,8 +1,6 @@
 .header {
   width: 100%;
-  box-sizing: border-box;
   padding: 92px 50px;
-  color: FFFFFF;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
