@@ -146,6 +146,7 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 25px;
 }
 
 .card-link {
@@ -155,7 +156,7 @@
 }
 
 .card {
-  width: 430px;
+  min-width: 430px;
   height: 450px;
   position: relative;
   display: flex;
