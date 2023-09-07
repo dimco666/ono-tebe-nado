@@ -19,7 +19,10 @@
 .address {
   margin: 0;
   padding: 0;
-  font-style: normal;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24.3px;
 }
 
 .header__address {
@@ -29,6 +32,10 @@
 .header__links-list {
   display: flex;
   gap: 32px;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .header__links-list-item {
@@ -52,7 +59,7 @@
   background-position: center;
   position: relative;
   box-sizing: border-box;
-  padding: 50px;
+  padding: 165px 50px 50px;
 }
 
 .cover__title {
@@ -60,12 +67,15 @@
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
-  line-height: 115%;
+  line-height: 100%;
   text-transform: uppercase;
   letter-spacing: 30px;
-  padding: 165px 50px 237px;
+  padding-bottom: 135px;
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .cover__description {
@@ -84,7 +94,7 @@
   font-weight: 400;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 25px;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -103,6 +113,7 @@
 .aligned-text {
   text-align: start;
   display: block;
+line-height: 115%;
 }
 
 .aligned-text_center {
