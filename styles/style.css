@@ -2,7 +2,7 @@
   width: 100%;
   padding: 92px 50px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr min-content 1fr;
 }
 
 .header__logo {
@@ -49,6 +49,7 @@
   background-image: url(/images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   position: relative;
   box-sizing: border-box;
   padding: 50px;
@@ -128,8 +129,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
+  inset: 0;
 }
 
 .lots {
@@ -156,8 +156,8 @@
 }
 
 .card {
-  min-width: 430px;
-  height: 450px;
+  min-width: 100%;
+  height: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -235,7 +235,6 @@
   width: 100%;
   display: grid;
   grid-template-columns: 430px 1fr;
-  min-height: 487px;
   column-gap: 25px;
 }
 
@@ -271,18 +270,16 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 25px;
-}
-
-.about__text:last-of-type {
-  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .footer {
   padding: 180px 50px 90px;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr min-content 1fr;
 }
 
 .footer__menu {
@@ -301,8 +298,7 @@
   align-self: start;
   display: flex;
   list-style: none;
-  width: 240px;
-  height: 48px;
+  gap: 48px;
   justify-content: space-between;
 }
 
@@ -317,6 +313,10 @@
 
 .footer__menu-list {
   list-style: none;
+}
+
+.footer__menu-link {
+  white-space: nowrap;
 }
 
 .footer__menu-link_active {
