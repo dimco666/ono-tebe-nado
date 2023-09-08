@@ -12,6 +12,10 @@
   justify-self: center;
 }
 
+.header__logo-image {
+  height: 100%;
+}
+
 .header__menu {
   align-self: center;
 }
